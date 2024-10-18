@@ -1,23 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Azure Data Engineering Project</title>
+    <title>Olympic Data Project</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Inline CSS for quick setup */
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #ffc107;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 15px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #343a40;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Azure Data Engineering Project</h1>
-    <p>This project showcases how I used Azure Data Factory, Databricks, and Synapse Analytics to process Olympic data.</p>
-    <h2>Architecture Diagram</h2>
-    <img src="assets/architecture.png" alt="Architecture Diagram">
-    <h2>Project Overview</h2>
-    <ul>
-        <li>Extracted data using Azure Data Factory.</li>
-        <li>Transformed data with Databricks (PySpark).</li>
-        <li>Loaded data into Synapse Analytics for querying.</li>
-        <li>Generated insights and visualizations from the transformed data.</li>
-    </ul>
-    <h2>GitHub Repository</h2>
-    <a href="https://github.com/your-username/azure-data-engineering-project">View the GitHub Repo</a>
+
+    <header>
+        <h1>Olympic Data Engineering Project</h1>
+        <nav>
+            <a href="#overview">Overview</a>
+            <a href="#queries">SQL Queries</a>
+            <a href="#challenges">Challenges</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="overview">
+        <h2>Project Overview</h2>
+        <p>This project showcases an end-to-end data pipeline built using Azure services, including Azure Data Factory, Databricks, and Synapse Analytics. It analyzes the Tokyo 2020 Olympics data to extract meaningful insights and demonstrate cloud-based data engineering skills.</p>
+        <a href="https://github.com/your-username/Olympic-data-project" class="button">View on GitHub</a>
+    </section>
+
+    <section id="queries">
+        <h2>SQL Queries and Insights</h2>
+        <ul>
+            <li><b>Top Countries by Gold Medals:</b> SQL script to analyze countries with the most gold medals.</li>
+            <li><b>Average Male/Female Participation:</b> Query to show the average gender participation across sports.</li>
+            <li><b>Total Medals by Country:</b> Query to display the total medals won by each country.</li>
+        </ul>
+        <a href="screenshots/top_gold_medals.png" class="button">View Query Results</a>
+    </section>
+
+    <section id="challenges">
+        <h2>Challenges and Learnings</h2>
+        <p>This project provided hands-on experience in:</p>
+        <ul>
+            <li>Building data pipelines using Azure Data Factory, Databricks, and Synapse Analytics.</li>
+            <li>Writing and optimizing SQL queries for data analysis.</li>
+            <li>Managing cloud resources and storage efficiently.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you have any questions or feedback, feel free to <a href="https://www.linkedin.com/in/your-profile" target="_blank">reach out on LinkedIn</a> or raise an issue on the <a href="https://github.com/your-username/Olympic-data-project">GitHub repository</a>.</p>
+    </section>
+
+    <footer>
+        <p>© 2024 Olympic Data Project. Built with ❤️ by Your Name.</p>
+    </footer>
+
 </body>
+
 </html>
