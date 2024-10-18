@@ -47,24 +47,21 @@ This project allowed me to dive deeper into cloud technologies like **Azure Data
 ### 1. **Top Countries by Gold Medals**  
 - **Query**: [View SQL Script](./queries/top_gold_medals.sql)  
 - **Description**: This query identifies the countries with the highest number of gold medals.  
-- **Screenshot**:  
-  ![Top Gold Medals](./screenshots/Top Countries by Gold Medals.png)  
+
 
 ---
 
 ### 2. **Average Male/Female Participation**  
 - **Query**: [View SQL Script](./queries/avg_participation.sql)  
 - **Description**: Calculates the average male and female participation across all sports.  
-- **Screenshot**:  
-  ![Avg Participation](./screenshots/avg_participation.png)  
+  
 
 ---
 
 ### 3. **Total Medals by Country**  
 - **Query**: [View SQL Script](./queries/total_medals_by_country.sql)  
 - **Description**: Displays the total number of medals won by each country.  
-- **Screenshot**:  
-  ![Total Medals](./screenshots/total_medals.png)  
+  
 
 ---
 
