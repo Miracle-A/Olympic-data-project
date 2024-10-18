@@ -23,4 +23,4 @@ This project demonstrates how to build an end-to-end data pipeline using **Azure
 ### Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/azure-data-engineering-project.git
+   git clone https://github.com/Miracle-A/Olympic-data-project.git
