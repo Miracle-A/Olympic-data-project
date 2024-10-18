@@ -48,7 +48,7 @@ This project allowed me to dive deeper into cloud technologies like **Azure Data
 - **Query**: [View SQL Script](./queries/top_gold_medals.sql)  
 - **Description**: This query identifies the countries with the highest number of gold medals.  
 - **Screenshot**:  
-  ![Top Gold Medals](./screenshots/top_gold_medals.png)  
+  ![Top Gold Medals](./screenshots/Top Countries by Gold Medals.png)  
 
 ---
 
